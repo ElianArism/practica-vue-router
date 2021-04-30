@@ -1,8 +1,12 @@
 <template>
   <div id="nav">
+    <!-- router link sirve para hacer enlaces entre urls  -->
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/blog">Blog</router-link>
   </div>
+
+  <!-- Este componente analiza la configuracion del router y renderiza para x url el componente asociado -->
   <router-view/>
 </template>
 
